@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 8px solid #22AC9C;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.top_section {
+    margin: 90px;
+    display: flex;
+justify-content: space-evenly;
+align-items: flex-end;
+
+}
+.top_section img {
+    border-radius: 50%;
+    height: 500px;
+    width: 390px;
+    margin-left:-90px ;
+}
+.top_section h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2.3rem;
+    color: #2F1B1B ;
+}
+.top_section h3 {
+    font-size: 1.1rem;
+    color: #672e2e;
+   text-align: end;
+}
+
+.about_content h2 {
+    text-align: center;
+    margin: 30px;
+    text-transform: uppercase;
+}
+.about_content p {
+    text-align: justify;
+    font-size: o.9rem;
+      font-family: 'Crimson Text', sans-serif;
+}
+
+footer h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 40px;
+text-align: center;
+}
+footer ul {
+  font-size: o.9rem;
+    margin-bottom: 15px;
+justify-content: space-evenly;
+text-align: justify;
+font-family: 'Crimson Text', sans-serif;
+margin-inline-start: 20px;
+}
+
+
+footer p {
+    text-align: end;
+    font-weight: 850;
+    font-family: 'Montserrat', sans-serif;
+font-size: 0.8rem;
+}
+footer a {
+    color: rgb(16, 88, 88);
+    margin-bottom: 90px;
+    transition: 0.6s ease-out;
+}
+footer a:hover {
+    color: #35d618;
+    border: 0.7px dotted rgb(60, 209, 144);
+    background-color: rgb(0, 0, 0);
+}
